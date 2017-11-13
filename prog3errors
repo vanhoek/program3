@@ -1,0 +1,16 @@
+/*
+*  Tanya D Olivas
+*  CS371
+*  Erros found
+*/
+
+IglooScore1.java
+Functional errors:
+- Modified line 39, binary operator changed to ">" which will result in the correct calculation and correct output.
+
+IglooScore2.java
+Functional errors:
+- Modified line 39, changed score1<score2 operator to score1<=score2
+- Modified line 44, modified use score3 instead of score2, score2 is the lowest in that condition
+- Modified line 49 and line 50 from integers of 99 to score1 and score2. All 3 scores have the same value.
+- Modified line 59, removed "args==null ||" condition, it cannot be null since it's been initialized
